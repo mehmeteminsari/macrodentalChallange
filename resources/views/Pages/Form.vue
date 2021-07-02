@@ -252,7 +252,7 @@ export default defineComponent({
         headers: {},
         errorBag: null,
         forceFormData: false,
-        onSuccess: () => alertify.success("GUNCELLENDI MAQ"),
+        onSuccess: () => alertify.success("GUNCELLENDI"),
         onError: () => {
           alert("Basarisiz");
         },
